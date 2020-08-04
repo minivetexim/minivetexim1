@@ -1,0 +1,15 @@
+
+<div class="col-md-12">
+<div class="row">
+<% @contacts.each do |contact|%>
+<div class="col-md-4">
+<div class="panel panel-default">
+<p>Name = <%=contact.name%></p>
+<p>Email =<%=contact.email%></p>
+<p>Number =<%=contact.phone_number%></p>
+<p>Message =<%=contact.message%></p>
+</div>
+</div>
+<%end%>
+</div>
+</div>

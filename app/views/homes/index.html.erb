@@ -1,0 +1,556 @@
+<div class="body1">
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>Minivet Exim</title>
+  <!--meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Yield Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+  />
+  <script>
+    addEventListener("load", function () {
+      setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+      window.scrollTo(0, 1);
+    }
+  </script>
+  <!--booststrap-->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+  <!--//booststrap end-->
+  <!-- font-awesome icons -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!-- //font-awesome icons -->
+  <!--stylesheets-->
+  <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+  <!--//stylesheets-->
+  <link href="//fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Libre+Franklin:400,500" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-top" id="home">
+    <!-- header -->
+    <div class="headder-top d-md-flex">
+      <div id="logo">
+        <h2>
+          <a style="color:red;"><%=image_tag("minivetexim.png",:size => "40x24")%>Minivet Exim</a>
+        </h2>
+      </div>
+      <!-- nav -->
+      <nav class="mx-md-auto">
+
+        <label for="drop" class="toggle" style="color:#ff1900;">Menu</label>
+        <input type="checkbox" id="drop">
+        <ul class="menu mt-2">
+          <li class="active">
+            <a href="index.html" style="color:#cc5c50;">Home</a>
+          </li>
+          <li>
+            <a href="#about" style="color:#cc5c50;">About</a>
+          </li>
+          <li>
+            <a href="#service" style="color:#cc5c50;">Services</a>
+          </li>
+          <li>
+            <a href="http://www.eximsquare.com/users/sign_up" style="color:#cc5c50;">Trade Fair</a>
+          </li>
+          <li class="dropdown">
+            <!-- First Tier Drop Down -->
+            <label for="drop-2" class="toggle toogle-2" style="color:#cc5c50;">Dropdown
+              <span class="fa fa-angle-down" aria-hidden="true"></span>
+            </label>
+            <a href="#" style="color:#cc5c50;">Dropdown
+              <span class="fa fa-angle-down" aria-hidden="true"></span>
+            </a>
+            <input type="checkbox" id="drop-2">
+            <ul>
+              <li>
+                <a href="#gallery" class="drop-text" style="color:#cc5c50;">Special</a>
+              </li>
+              <li>
+                <a href="#blog" class="drop-text" style="color:#cc5c50;">Blog</a>
+              </li>
+              <li>
+                <a href="#contact" class="drop-text" style="color:#cc5c50;">Contact Us</a>
+              </li>
+              <li>
+                <a href="http://www.eximsquare.com/users/sign_up" class="drop-text" style="color:#cc5c50;">Sign Up</a>
+              </li>
+              <li>
+                <a href="http://www.eximsquare.com/users/sign_in" class="drop-text" style="color:#cc5c50;">Log In</a>
+              </li>
+            </ul>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/minivetexim"target="_blank" class="facebook">
+              <span class="fa fa-facebook" style="color:#cc5c50;"></span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/minivetexim"target="_blank" class="rss">
+              <span class="fa fa-instagram" style="color:#cc5c50;"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/EximMinivet"target="_blank" class="twitter">
+              <span class="fa fa-twitter" style="color:#cc5c50;"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/minivet-exim"target="_blank" class="rss">
+              <span class="fa fa-linkedin" style="color:#cc5c50;"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- //nav -->
+    </div>
+    <!-- //header -->
+    <!-- banner -->
+
+    <div class="slider-img ">
+    <%=video_tag "minivet_exim.mp4", autoplay: :autoplay, loop: :loop, muted: :muted,class: "minivet_exim_header"%>
+      <div class="container">
+        <div class="slider-info">
+          <h5>We Grow and Sell</h5>
+          <h4>Minivet exim lives by these values</h4>
+          <h5>Professionalism,Service Orientation,Productivity,Social Accountability</h5>
+        </div>
+        <div class="outs_more-buttn mt-md-4 mt-3">
+          <a href="#service">Products</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- banner -->
+  <!-- about -->
+  <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+      <div class="row">
+        <div class="col-lg-6 about-imgs-txt my-3">
+        	<%=image_tag ("minivet_exim8.jpg"),class: "img-fluid"%>
+        </div>
+        <div class="col-lg-6 about-two-grids my-3">
+          <h5 class="top-title mb-lg-4 mb-3"> About</h5>
+          <h2 class="mb-md-3 mb-sm-3 mb-3">Minivet Exim private limited is an Export, Import and Global Sourcing Company from India.</h2>
+          <div class="about-para-txt">
+            <p>MinivetExim is a professional export company Our customers involved in 80 countries and regions.
+Import and export of various kinds of goods and technologies. Excluding those prohibited by national laws and regulations. Currently, the group operates mainly in import and export industries adding values to people and businesses via the quality of products and innovative solutions.
+</p>
+<P></P>
+          </div>
+          <h6 class="my-lg-5 my-md-4 my-3">Export Product</h6>
+          <div class="about-para-txt">
+          	<p>Fruits, Vegetables, Spice, Milk & Dairy Products, Cereals, Food Grains, Snacks, Sweet, Package food items, Sugar, Flours, Cooking, Edible, and Coconut Oil,Coffee, Tea, Garments, Textiles, Ayurvedic Product, Furniture, Marble, Granite & Stones, Chemicals, Handicrafts. We also provide IT-solutions and marketing strategies in India.</p>
+            <p>MinivetExim is committed to bringing you the best available products along with the highest standards of Quality at a lower price.</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//about -->
+  <!--service -->
+  <section class="service" id="service">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 service-wthree-grids img-two">
+         
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 service-wthree-grids img-one">
+          
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 service-wthree-grids color-two">
+
+          <h4>Fruits,vegetables,Spice Cereals,Food Grains,Milk & Dairy Products,Sugar and Flours,Cooking,Edible & Coconut Oil,Meat, Seafood & Poultry Food</h4>
+        </div>
+
+        <div class="col-lg-3 service-second-grid img-three">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+          <div class="service-wthree-grids img-four">
+           
+          </div>
+          <div class="service-wthree-grids color-two">
+
+            <h4>Marble, Granite & Stones,
+Chemicals, Dyes & Solvents</h4>
+<h4>Handicrafts & Decoratives,Furniture & Supplies,
+Transportation & Logistics,
+IT Solutions 
+</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+          <div class="service-wthree-grids color-three">
+<h4>Apparel & Garments,
+Leather Products,Natural rubber,
+Snacks,sweet & package Food Item,
+Coffee bean & powder,Tea leaf,Vanilla</h4><h4>Herbal & Ayurvedic</h4>
+          </div>
+          <div class="service-wthree-grids img-six">
+           
+          </div>
+        </div>
+        <div class="col-lg-3 service-second-grid img-five">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//service -->
+  <!-- features -->
+	<section class="features py-5" id="features">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row">
+				<div class="col-lg-6 about-text-grid">
+					<h5 class="top-title mb-lg-4 mb-3">Virtual Verification</h5>
+					<ul class="my-4 list-unstyled list-head">
+						<li>
+							<span class="fa fa-hand-o-right mr-3" aria-hidden="true"></span>We make a video call to importer or buyer to verify there importing product size, color, quality, quantity, and packaging we make sure before sending any product to buyers.</li>
+						<li>
+							
+					</ul>
+					<a href="#contact" style="max-width: 150px; margin: 0 auto;" class="btn button-style button-style-2 mt-sm-4 mt-3">Contact
+						Us</a>
+				</div>
+				<div class="offset-lg-1 col-lg-5 abbot-right mt-lg-0 mt-sm-5 mt-4">
+				<%=image_tag ("minivet_exim13.jpg"),class: "img-fluid"%>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //features -->
+ <!-- testimonials -->
+	<section class="testimonials py-5 bg-li" id="testi">
+		<div class="container py-xl-5 py-lg-3">
+			<h3 class="tittle text-center">Testimonials</h3>
+			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
+			<div class="row text-center mt-4">
+				<div class="col-lg-4 test-info">
+					<p><span class="fa fa-quote-left mr-1"></span>I worked at minivetexim full-time for  2 years
+Learning from the best teams dealing with global market, Flexibility to work, Best events, trainings.<span
+							class="fa fa-quote-right ml-1"></span></p>
+					<div class="test-img mb-3">
+					
+					    <%=image_tag ("minivet_exim221.jpg"),class: "img-fluid"%>
+
+					</div>
+					<h3 class="my-md-2 my-3">Anushka Rao</h3>
+					<ul class="list-unstyled w3layouts-icons">
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 test-info mt-lg-0 mt-5">
+					<p><span class="fa fa-quote-left mr-1"></span> MinivetExim is a professional export company always they send us a good quality product <span
+							class="fa fa-quote-right ml-1"></span></p>
+					<div class="test-img mb-3">
+					<%=image_tag ("minivet_exim222.jpg"),class: "img-fluid"%>
+
+					</div>
+					<h3 class="my-md-2 my-3">Charlotte </h3>
+					<ul class="list-unstyled w3layouts-icons">
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-4 test-info mt-lg-0 mt-5">
+					<p><span class="fa fa-quote-left mr-1"></span>Minivet Exim is a professional import & Export company they follow all industry standards. Happy to work with them thanks Minivet Exim <span
+							class="fa fa-quote-right ml-1"></span></p>
+					<div class="test-img mb-3">
+				    <%=image_tag ("minivet_exim223.jpg"),class: "img-fluid"%>
+				    	
+				    </div>
+					<h3 class="my-md-2 my-3">Thomas</h3>
+					<ul class="list-unstyled w3layouts-icons">
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa fa-star-half-o"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //testimonials -->
+
+
+  
+  <!--//team -->
+  <!-- matter -->
+  <section class="advertise-count py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+      <div class="order-show-w3ls ">
+        <h4>We supports and sustains the relevance of our very own tradition throughout.</h4>
+        <div class="outs_more-buttn mt-md-4 mt-3">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//matter -->
+  <!-- gallery  -->
+  <section class="gallery py-lg-4 py-md-3 py-sm-3 py-3" id="gallery">
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+      <h3 class="title mb-lg-5 mb-md-4 mb-sm-4 mb-3 text-center">What is Special </h3>
+      <div class="row gallery-info no-gutters">
+        <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid ">
+          <div class="gallery-grids">
+         
+				<%=image_tag ("minivet_exim12.png"),class: "img-fluid"%>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid ">
+          <div class="gallery-grids">
+            
+				<%=image_tag ("minivet_exim14.png"),class: "img-fluid"%>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid">
+          <div class="gallery-grids">
+            
+				<%=image_tag ("minivet_exim2.png"),class: "img-fluid"%>
+            
+          </div>
+         </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--//gallery  -->
+  <!-- blog -->
+  <section class="blog py-lg-4 py-md-3 py-sm-3 py-3" id="blog">
+    <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
+      <h5 class="top-title mb-lg-4 mb-3 text-center">WTO</h5>
+      <h3 class="title mb-lg-5 mb-md-4 mb-sm-4 mb-3 text-center">Latest News & Events</h3>
+      <div class="row">
+        <div class="col-lg-6 blog-first-grid">
+          <div class="blog-txt text-center">
+            <h5>
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-6 bolg-right-grids">
+          <h4 class="pb-3">
+            <a href="#about">World Bank launch joint publication.</a>
+          </h4>
+          <p>The WTO and the World Bank launched the joint publication “Women and Trade: The role of trade in promoting gender equality” at a virtual event on 30 July. Gaining a better understanding of how women can benefit from trade
+          </p>
+          <div class="mt-3 blog-date-time">
+           
+          </div>
+          <div class="outs_more-buttn mt-md-4 mt-3">
+            <a href="https://www.wto.org/english/news_e/news_e.htm"target="_blank">view</a>
+          </div>
+        </div>
+        <div class="col-lg-6 bolg-right-grids text-md-right">
+          <h4 class="pb-3">
+            <a href="#about">Interactive meetings calendar 2020</a>
+          </h4>
+          <p>
+By default this page lists all meetings of WTO committees and councils as well as events taking place at the WTO such as book launches, workshops and seminars.
+          </p>
+          <div class="outs_more-buttn mt-md-4 mt-3">
+            <a href="https://www.wto.org/english/news_e/events_e/events_e.htm"target="_blank">view</a>
+          </div>
+        </div>
+        <div class="col-lg-6 blog-second-grid">
+          <div class="blog-txt text-center">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="outs_more-buttn mt-md-4 mt-3 text-center">
+            <a href="http://www.eximsquare.com/users/sign_up">Join our's Trade show get free Import-Export Leads.</a>
+          </div>
+  </section>
+  <!--//blog -->
+  <!-- map -->
+  <div class="address_mail_footer_grids">
+ <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1MV4I9X56PgGXNMR9ji-Rj_cX5MFHvbzx" width="680" height="480"></iframe>
+  </div>
+  <!--//map -->
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-7 col-md-6 contact-form-txt">
+          <form action="#" method="post">
+          	<%=form_for @contacts do |f| %>
+            <div class="form-group contact-forms">
+              <%= f.text_field :name,:maxlength=>"24",placeholder:'Name',class: "form-control"%>
+              </div>
+            <div class="form-group contact-forms">
+             <%= f.email_field :email,:maxlength=>"24",placeholder:'E-Mail',class: "form-control"%>
+            </div>
+            <div class="form-group contact-forms">
+             <%= f.text_field :phone_number,:maxlength=>"24",placeholder:'Phone Number',class: "form-control"%>
+            </div>
+            <div class="form-group contact-forms">
+             <%= f.text_field :message,:maxlength=>"24",placeholder:'Message',class: "form-control"%>
+            </div>
+            <%= f.submit"Send",class: "btn btn-dark"%></p>
+          </form>
+          <%end%>
+        </div>
+        <div class="col-md-5 contact-grided-right">
+          <h5 class="top-title mb-lg-4 mb-3 text-center">Contact Us</h5>
+          <h3 class="title mb-lg-5 mb-md-4 mb-sm-4 mb-3 text-center">Get In Touch</h3>
+          <div class=" footer-top text-center">
+            <p>
+              <span>Main Branch Address :</span>  2sd main 2sd cross
+              <br>krushi nagar shivamogga 577204</p>
+            <p class="pt-lg-3 pt-2">
+              <span>Email</span> :
+              <a href="mailto:info@example.com">minivetexim@gmail.com</a>
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//contact -->
+  <!-- footer -->
+  <section class="footer-grids py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+      <div class="footer-w3layouts-head text-center">
+        <h5>Follow Us</h5>
+      </div>
+      <div class="footer-icons mt-md-4 mt-3 text-center">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/minivetexim"target="_blank">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/minivet-exim"target="_blank">
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/EximMinivet"target="_blank">
+              <span class="fa fa-twitter"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/minivetexim"target="_blank">
+              <span class="fa fa-instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- move icon -->
+      <div class="text-center mt-md-4 mt-3">
+        <a href="#home" class="move-top text-center mt-3">
+          <span class="fa fa-arrow-up" aria-hidden="true"></span>
+        </a>
+      </div>
+      <!--//move icon -->
+    </div>
+  </section>
+  <!--//footer -->
+  <!-- copy right -->
+  <footer>
+    <div class="bottom-footer text-center py-md-4 py-3">
+      <p>
+        <a> © Minivet Exim<%=image_tag("minivetexim.png",:size => "50x24")%>
+<%=Time.now.strftime("%m/%d/%Y")%></a>
+      </p>
+    </div>
+  </footer>
+  <!-- copy right -->
+</body>
+
+</html>
+
+
+</div>
+
+
+
+
+

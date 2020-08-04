@@ -1,0 +1,28 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.minivet_exim_header {
+ width: 130vw;
+ height: 100vh;
+ position: absolute;
+ object-fit: cover;
+ top: 0;
+ z-index: -2;
+}
+
+.minivet_exim_wrapper {
+height: 100vh;
+display: flex;
+}
+
+
+.body1 {
+
+	 margin: 0;
+
+     overflow: hidden;
+}
+
+
+.miniveteximlogo {color : red}
