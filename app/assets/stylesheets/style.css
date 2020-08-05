@@ -675,10 +675,10 @@ ul.w3layouts-icons li a span {
 }
 /*--//about--*/
 /*--service--*/
-.img-one{background: url("images/minivet_exim9.jpg") no-repeat center;}
-.img-two{background:url("images/minivet_exim4.jpg") no-repeat center;}
-.img-four{background:url("images/minivet_exim5.jpg") no-repeat center;}
-.img-six{background:url("images/minivet_exim11.jpg") no-repeat center;}
+.img-one{background: url("minivet_exim9.jpg") no-repeat center;}
+.img-two{background:url("minivet_exim4.jpg") no-repeat center;}
+.img-four{background:url("minivet_exim5.jpg") no-repeat center;}
+.img-six{background:url("minivet_exim11.jpg") no-repeat center;}
 .img-two,.img-one,.img-four,.img-six{
     background-size: cover;
     -webkit-background-size: cover;
@@ -688,8 +688,8 @@ ul.w3layouts-icons li a span {
     min-height:355px;
 }
 
-.img-five{background:url("images/minivet_exim1.jpg") no-repeat center; }
-.img-three{background:url("images/minivet.jpg") no-repeat center; 
+.img-five{background:url("minivet_exim1.jpg") no-repeat center; }
+.img-three{background:url("minivet.jpg") no-repeat center; 
 }
 .img-five,.img-three{
    background-size: cover;
@@ -714,7 +714,7 @@ ul.w3layouts-icons li a span {
 /*--//service--*/
 /*--matter--*/
 .advertise-count {
-    background: url("images/minivet_exim3.jpg") no-repeat center fixed;
+    background: url("minivet_exim3.jpg") no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
