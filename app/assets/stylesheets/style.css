@@ -124,11 +124,14 @@ nav {
     letter-spacing: 1px;
     line-height: 44px;
     color: #fff;
-    padding-top: 4px;
+    padding-top:4px;
 }
 /* Since we'll have the "ul li" "float:left"
 * we need to add a clear after the container. */
-
+#logo h2 {
+      margin: 0;
+    padding: 10px;
+}
 nav:after {
   content: "";
   display: table;
@@ -254,7 +257,7 @@ nav ul ul li a:hover {
     color: #000;
     background: #fff;
 }
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers 
 * We move the 2nd and 3rd etc tier dropdowns to the left
 * by the amount of the width of the first tier.
 */
@@ -330,7 +333,7 @@ nav {
   }
   .menu .toggle:hover {
     color: #fff;
-	opacity:.8;
+  opacity:.8;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -376,7 +379,7 @@ label.toggle.toogle-2 {
     text-align: center;
     width: 100%;
     top: 0px;
-	z-index:99;
+  z-index:99;
     box-shadow: 0 1px 20px 0px #212121;
 }
   /* Change menu item's width to 100% */
@@ -476,7 +479,7 @@ background-color: #212121;
   -moz-transition: 0.5s all;}
   .social-icons {
     padding-top:14px;
-	text-align: right;
+  text-align: right;
 }
 .team-icons ul li.facebook{background:#0078d7;}
 .team-icons ul li.twitter{background:#1da1f2;}
@@ -487,7 +490,7 @@ background-color: #212121;
     text-align: center;
     height: 35px;
     border-radius: 50px;
-	margin: 0px 3px;
+  margin: 0px 3px;
 }
 .team-icons ul li a span{
   color: #fff;
@@ -519,7 +522,7 @@ background-color: #212121;
     margin-bottom: 12px;
 }
 .slider-info {
-padding: 19em 0 0;
+padding: 24em 0 0;
 }
 .slider-info h4 {
     color: #f6a1b6;
@@ -672,10 +675,10 @@ ul.w3layouts-icons li a span {
 }
 /*--//about--*/
 /*--service--*/
-.img-one{background: url("minivet_exim9.jpg") no-repeat center;}
-.img-two{background:url("minivet_exim4.jpg") no-repeat center;}
-.img-four{background:url("minivet_exim5.jpg") no-repeat center;}
-.img-six{background:url("minivet_exim11.jpg") no-repeat center;}
+.img-one{background: url("images/minivet_exim9.jpg") no-repeat center;}
+.img-two{background:url("images/minivet_exim4.jpg") no-repeat center;}
+.img-four{background:url("images/minivet_exim5.jpg") no-repeat center;}
+.img-six{background:url("images/minivet_exim11.jpg") no-repeat center;}
 .img-two,.img-one,.img-four,.img-six{
     background-size: cover;
     -webkit-background-size: cover;
@@ -685,8 +688,8 @@ ul.w3layouts-icons li a span {
     min-height:355px;
 }
 
-.img-five{background:url("minivet_exim1.jpg") no-repeat center; }
-.img-three{background:url("minivet.jpg") no-repeat center; 
+.img-five{background:url("images/minivet_exim1.jpg") no-repeat center; }
+.img-three{background:url("images/minivet.jpg") no-repeat center; 
 }
 .img-five,.img-three{
    background-size: cover;
@@ -697,7 +700,7 @@ ul.w3layouts-icons li a span {
     min-height:400px;}
 .service-wthree-grids {
     padding:1.5em 3em;
-	}
+  }
 .service-second-grid{padding:3em 3em;}
 .color-one {
     background: #f6a1b6;
@@ -711,7 +714,7 @@ ul.w3layouts-icons li a span {
 /*--//service--*/
 /*--matter--*/
 .advertise-count {
-    background: url("minivet_exim3.jpg") no-repeat center fixed;
+    background: url("images/minivet_exim3.jpg") no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -779,9 +782,10 @@ ul.w3layouts-icons li a span {
     background: #f3f3f3;
 }
 .blog-first-grid {
-    background: url("minivet_exim111") no-repeat center;
+    background: url("images/minivet_exim111.jpg") no-repeat center;
 }
-.blog-second-grid{ background: url("minivet_exim112") no-repeat center;}
+
+.blog-second-grid{ background: url("images/minivet_exim112.jpg") no-repeat center;}
 .blog-second-grid,.blog-first-grid {  
   background-size: cover;
     -webkit-background-size: cover;
@@ -838,9 +842,9 @@ background: #cc5c50;}
 }
 .address_mail_footer_grids iframe {
     width: 100%;
-    height:18em;
+    height:27em;
     border: none;
-	padding:5px;
+  padding:5px;
 }
 .sent-butnn {
     font-size: 16px;
@@ -858,7 +862,7 @@ background: #cc5c50;}
     -ms-transition: 0.5s all;
 }
 /*--//content--*/
-	/*--footer--*/
+  /*--footer--*/
 .footer-grids {
     background: #f6a1b6;
 }
@@ -881,7 +885,7 @@ background: #cc5c50;}
     font-size: 25px;
     color: #fff;
 }
-	/*--//footer--*/
+  /*--//footer--*/
 /*--footer-copyright-- */
 .bottom-footer p {
     font-size: 14px;
@@ -904,20 +908,20 @@ a.move-top span {
 /*--//footer-copyright-- */
 /*--responsive--*/
 @media(max-width:1920px){
-	
+  
 }
 @media(max-width:1680px){
-	
+  
 }
 @media(max-width:1600px){
-	
+  
 }
 @media(max-width:1440px){
 .main-top {
     min-height: 680px;
-}	
+} 
 .slider-info {
-    padding: 15em 0 0;
+    padding: 26.5em 0 0;
 }
 .slider-info h5 {
     font-size: 2.2em;
@@ -928,42 +932,42 @@ a.move-top span {
 }
 .about-two-grids h2, .order-show-w3ls h4, .bolg-right-grids h4 a {
     font-size: 34px;
-	}
-	.service-wthree-grids {
+  }
+  .service-wthree-grids {
     padding: 1.5em 2.5em;
 }
 h3.title {
     font-size: 38px;
-	}
+  }
 .about-two-grids h6, .team-w3layouts-grids h6 {
     font-size: 28px;
-	}
+  }
 .blog-txt h5 a {
     font-size: 3.5em;
-	}
+  }
 .blog-second-grid, .blog-first-grid {
     min-height: 507px;
 }
 .footer-icons ul li a span {
 font-size: 27px;
-	}
+  }
 }
 @media(max-width:1366px){
 .headder-top {
-    padding: 0em 6em;
-}	
+    padding: .4em 6em;
+} 
 .slider-info h4 {
     font-size: 2.3em;
 }
 .service-wthree-grids h4, .service-second-grid h4 {
     font-size: 20px;
-	}
+  }
 h5.top-title {
     font-size: 23px;
 }
 .social-icons ul li a span, .team-icons ul li a span {
     font-size: 14px;
-	}
+  }
 .team-icons ul li {
     width: 33px;
     height: 33px;
@@ -973,18 +977,18 @@ h5.top-title {
 }
 .footer-w3layouts-head h5 {
     font-size: 27px;
-	}
+  }
 }
 @media(max-width:1280px){
 .main-top {
     min-height: 640px;
-}	
+} 
 .slider-info {
-    padding: 14.5em 0 0;
+    padding: 26.5em 0 0;
 }
 #logo h1 a {
 font-size:33px;
-	}
+  }
 .service-wthree-grids {
     padding: 1.5em 2em;
 }
@@ -1005,7 +1009,7 @@ font-size:33px;
 }
 .contact-form-txt, .contact-grided-right {
     padding: 4em 3em;
-}	
+} 
 .about-two-grids h2, .order-show-w3ls h4, .bolg-right-grids h4 a {
     font-size: 31px;
 }
@@ -1014,7 +1018,7 @@ font-size:33px;
 }
 nav ul li a {
     padding: 5px 15px;
-	}
+  }
 .service-wthree-grids {
     padding: 1.5em 1.5em;
 }
@@ -1039,8 +1043,8 @@ h5.top-title {
     font-size: 13px;
 }
 .address_mail_footer_grids iframe {
-    height: 19em;
-}	
+    height: 27em;
+} 
 .contact-forms input, .contact-forms textarea {
     padding: .8em 1em
 }
@@ -1063,11 +1067,11 @@ h5.top-title {
     min-height: 600px;
 }
 .slider-info {
-    padding:13.5em 0 0;
+    padding:25.5em 0 0;
 }
 .slider-info h5 {
     font-size: 2.1em;
-	}
+  }
 .slider-info p {
     padding: 2.1em 23em 0em 0em;
 }
@@ -1079,14 +1083,14 @@ h3.title {
 }
 .blog-date-time ul li, .footer-top p span {
     font-size: 15px;
-	}
+  }
 .sent-butnn {
     font-size: 15px;
-	}
+  }
 }
 @media(max-width:991px){
 .headder-top {
-    padding: 0em 5em;
+    padding: .4em 5em;
 }
 .slider-info p {
     padding: 1.8em 8em 0em 0em;
@@ -1136,21 +1140,21 @@ h3.title {
     min-height: 543px;
 }
 .slider-info {
-    padding: 12.5em 0 0;
+    padding: 25.5em 0 0;
 }
 nav ul li a {
     padding: 5px 11px;
     letter-spacing: 1px;
 }
 .headder-top {
-    padding: 0em 4em;
+    padding: .4em 4em;
 }
 #logo h1 a {
     font-size: 30px;
 }
 h5.top-title {
     font-size: 21px;
-}	
+} 
 .slider-info h5 {
     font-size: 1.8em;
 }
@@ -1158,9 +1162,9 @@ h5.top-title {
 @media(max-width:768px){
 nav ul li a {
     font-size: 13px;
-}	
+} 
 .headder-top {
-    padding: .2em 4em;
+    padding: .3em 4em;
 }
 h3.title {
     font-size: 32px;
@@ -1172,7 +1176,7 @@ h3.title {
     font-size: 2.2em;
 }
 .address_mail_footer_grids iframe {
-    height: 19em;
+    height: 27em;
 }
 .footer-icons ul li a span {
     font-size: 23px;
@@ -1180,7 +1184,7 @@ h3.title {
 }
 @media(max-width:767px){
 #logo h1 a{
-    line-height: 35px;}	
+    line-height: 35px;} 
 .social-icons {
     padding-top: 0px;
     text-align: left;
@@ -1196,7 +1200,7 @@ padding: 0px 5px;
     font-size: 14px;
 }
 .slider-info {
-    padding: 15em 0 0;
+    padding: 25em 0 0;
 }
 .slider-info h4 {
     font-size: 1.9em;
@@ -1230,7 +1234,7 @@ h3.title {
 .contact-grided-right{text-align:center;}
 .footer-icons ul li a span {
     margin: 0px 18px;
-	}
+  }
 }
 @media(max-width:736px){
 .footer-w3layouts-head h5 {
@@ -1259,7 +1263,7 @@ h3.title {
 }
 @media(max-width:667px){
 .headder-top {
-    padding: .2em 3em;
+    padding: .3em 3em;
 }
 #logo h1 a {
     font-size: 28px;
@@ -1268,25 +1272,25 @@ h3.title {
     min-height: 524px;
 }
 .slider-info {
-    padding: 14.5em 0 0;
+    padding: 23.5em 0 0;
 }
 .slider-info p {
     padding: 1.4em 2em 0em 0em;
-	}	
+  } 
 .service-wthree-grids h4, .service-second-grid h4 {
     font-size: 18px;
 }
 .about-two-grids h6, .team-w3layouts-grids h6 {
     font-size: 23px;
-	}
+  }
 .blog-txt {
     padding: 2em 2em;
-	}
+  }
 .blog-txt h5 a {
     font-size: 1.8em;
 }
 .address_mail_footer_grids iframe {
-    height: 18em;
+    height: 27em;
 }
 .contact-form-txt, .contact-grided-right {
     padding: 2.5em 2em;
@@ -1317,11 +1321,11 @@ h5.top-title {
     padding: 1em 1.1em;
 }
 .headder-top {
-    padding: .2em 2em;
+    padding: .3em 2em;
 }
 .footer-icons ul li a span {
     font-size: 21px;
-}	
+} 
 }
 @media(max-width:568px){
 #logo h1 a {
@@ -1335,12 +1339,12 @@ h5.top-title {
 }
 .about-two-grids h6, .team-w3layouts-grids h6 {
     font-size: 22px;
-}	
+} 
 }
 @media(max-width:480px){
 .bottom-footer p {
   letter-spacing: 1px;
-}	
+} 
 .slider-info p {
     padding: 1.2em 1em 0em 0em;
 }
@@ -1357,7 +1361,7 @@ h3.title {
     font-size: 1.7em;
 }
 .address_mail_footer_grids iframe {
-    height: 17em;
+    height: 27em;
 }
 }
 @media(max-width:440px){
@@ -1365,7 +1369,7 @@ h3.title {
     min-height: 505px;
 }
 .slider-info {
-    padding: 14em 0 0;
+    padding: 22em 0 0;
 }
 h5.top-title {
     font-size: 19px;
@@ -1382,7 +1386,7 @@ h5.top-title {
 }
 @media(max-width:414px){
 .headder-top {
-    padding: .2em 1em;
+    padding: .3em 1em;
 }
 .about-two-grids h2, .order-show-w3ls h4, .bolg-right-grids h4 a {
     font-size: 23px;
@@ -1410,7 +1414,7 @@ h5.top-title {
 .order-show-w3ls {
     padding: 0em 3em 0em 0em;
 }
-	
+  
 }
 @media(max-width:375px){
 .slider-info p {
@@ -1428,11 +1432,11 @@ h5.top-title {
 }
 .bottom-footer p {
     line-height: 24px;
-}	
+} 
 }
 @media(max-width:320px){
 .slider-info {
-    padding: 13em 0 0;
+    padding: 21em 0 0;
 }
 .about-two-grids h6, .team-w3layouts-grids h6 {
     font-size: 21px;
