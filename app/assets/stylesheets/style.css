@@ -782,10 +782,10 @@ ul.w3layouts-icons li a span {
     background: #f3f3f3;
 }
 .blog-first-grid {
-    background: url("images/minivet_exim111.jpg") no-repeat center;
+    background: url("minivet_exim111.jpg") no-repeat center;
 }
 
-.blog-second-grid{ background: url("images/minivet_exim112.jpg") no-repeat center;}
+.blog-second-grid{ background: url("minivet_exim112.jpg") no-repeat center;}
 .blog-second-grid,.blog-first-grid {  
   background-size: cover;
     -webkit-background-size: cover;
