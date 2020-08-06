@@ -130,7 +130,7 @@ nav {
 * we need to add a clear after the container. */
 #logo h2 {
       margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 nav:after {
   content: "";
@@ -1190,7 +1190,7 @@ h3.title {
     text-align: left;
 }
 nav {
-    margin:3px 0px;
+    margin:-13px 0px;
 }
 .social-icons ul li a {
 padding: 0px 5px;
