@@ -1,0 +1,2 @@
+class Minivetmask < ApplicationRecord
+end

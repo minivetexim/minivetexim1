@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<title>Minivet Exim</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#" class="w3-left w3-button w3-white">Minivet Mask</a>
+    <a href="#contact" class="w3-right w3-button w3-white">Contact Us</a>
+  </header>
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <%=image_tag ("minivetexim11.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim7.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim6.png"),class: "img-fluid"%>
+
+    </div>
+
+    <div class="w3-half">
+       <%=image_tag ("minivetexim12.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim13.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim14.png"),class: "img-fluid"%>
+        </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-col m12">
+       <%=image_tag ("minivetexim1.png"),class: "img-fluid"%>
+    </div>
+  </div>
+
+
+
+<div class="w3-row">
+    <div class="w3-half">
+      <%=image_tag ("minivetexim16.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim10.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim5.png"),class: "img-fluid"%>
+
+    </div>
+
+    <div class="w3-half">
+       <%=image_tag ("minivetexim2.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim9.png"),class: "img-fluid"%>
+      <%=image_tag ("minivetexim17.png"),class: "img-fluid"%>
+        </div>
+  </div>
+  
+
+
+
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-col m12">
+       <%=image_tag ("minivetexim15.png"),class: "img-fluid"%>
+    </div>
+  </div>
+    <div class="w3-row-padding w3-padding-16">
+
+    <div class="w3-col m6">
+       <%=image_tag ("minivetexim3.png"),class: "img-fluid"%>
+    </div> 
+     <div class="w3-col m6">
+       <%=image_tag ("minivetexim4.png"),class: "img-fluid"%>
+    </div>
+   
+  </div>
+  <div class="w3-row-padding w3-center">
+
+ <div class="w3-col m12">
+       <%=image_tag ("minivetexim8.png"),class: "img-fluid"%>
+    </div> 
+</div>
+
+ <div class="address_mail_footer_grids">
+ <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1MV4I9X56PgGXNMR9ji-Rj_cX5MFHvbzx" width="680" height="480"></iframe>
+  </div>
+  <!--//map -->
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-7 col-md-6 contact-form-txt">
+          <form action="#" method="post">
+            <%=form_for @masks do |f| %>
+            <div class="form-group contact-forms">
+              <%= f.text_field :name,:maxlength=>"24",placeholder:'Name',class: "form-control"%>
+              </div>
+            <div class="form-group contact-forms">
+             <%= f.email_field :email,:maxlength=>"24",placeholder:'E-Mail',class: "form-control"%>
+            </div>
+            <div class="form-group contact-forms">
+             <%= f.text_field :phone_number,:maxlength=>"24",placeholder:'Phone Number',class: "form-control"%>
+            </div>
+            <div class="form-group contact-forms">
+             <%= f.text_field :message,:maxlength=>"24",placeholder:'Message',class: "form-control"%>
+            </div>
+            <%= f.submit"Send",class: "btn btn-dark"%></p>
+          </form>
+          <%end%>
+        </div>
+        <div class="col-md-5 contact-grided-right">
+          <h5 class="top-title mb-lg-4 mb-3 text-center">Contact Us</h5>
+          <h3 class="title mb-lg-5 mb-md-4 mb-sm-4 mb-3 text-center">Get In Touch</h3>
+          <div class=" footer-top text-center">
+            <p>
+              <span>Main Branch Address :</span>  2sd main 2sd cross
+              <br>krushi nagar shivamogga 577204</p>
+            <p class="pt-lg-3 pt-2">
+              <span>Email</span> :
+              <a href="mailto:info@example.com">minivetexim@gmail.com</a>
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//contact -->
+  <!-- footer -->
+  <section class="footer-grids py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+      <div class="footer-w3layouts-head text-center">
+        <h5>Follow Us</h5>
+      </div>
+      <div class="footer-icons mt-md-4 mt-3 text-center">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/minivetexim"target="_blank">
+              <span class="fa fa-facebook"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/minivet-exim"target="_blank">
+              <span class="fa fa-linkedin"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/EximMinivet"target="_blank">
+              <span class="fa fa-twitter"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/minivetexim"target="_blank">
+              <span class="fa fa-instagram"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- move icon -->
+      <div class="text-center mt-md-4 mt-3">
+        <a href="#home" class="move-top text-center mt-3">
+          <span class="fa fa-arrow-up" aria-hidden="true"></span>
+        </a>
+      </div>
+      <!--//move icon -->
+    </div>
+  </section>
+  <!--//footer -->
+  <!-- copy right -->
+  <footer>
+    <div class="bottom-footer text-center py-md-4 py-3">
+      <p>
+        <a> © Minivet Exim<%=image_tag("minivetexim.png",:size => "50x24")%>
+<%=Time.now.strftime("%m/%d/%Y")%></a>
+      </p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

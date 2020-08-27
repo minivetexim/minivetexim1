@@ -17,6 +17,7 @@ end
 def minivet_exim903535
 	
  @contacts = Contact.all
+ @masks = Minivetmask.all
 
 end
 

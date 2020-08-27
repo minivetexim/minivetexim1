@@ -20,6 +20,8 @@
     }
   </script>
   <!--booststrap-->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
   <!--//booststrap end-->
   <!-- font-awesome icons -->
@@ -69,6 +71,9 @@
             </a>
             <input type="checkbox" id="drop-2">
             <ul>
+               <li>
+                <p class="drop-text"><%=link_to"Minivet Mask",minivetmasks_path,:style=>"color:#cc5c50;"%></p>
+              </li>
               <li>
                 <a href="#gallery" class="drop-text" style="color:#cc5c50;">Special</a>
               </li>
@@ -133,14 +138,11 @@
   </div>
   <!-- banner -->
   <!-- about -->
-  </br>
   <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
-  </br>
-  </br>
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <div class="row">
         <div class="col-lg-6 about-imgs-txt my-3">
-        	<%=image_tag ("minivet_exim8.jpg"),class: "img-fluid"%>
+          <%=image_tag ("minivet_exim41.jpg"),class: "img-fluid"%>
         </div>
         <div class="col-lg-6 about-two-grids my-3">
           <h5 class="top-title mb-lg-4 mb-3"> About</h5>
@@ -153,7 +155,7 @@ Import and export of various kinds of goods and technologies. Excluding those pr
           </div>
           <h6 class="my-lg-5 my-md-4 my-3">Export Product</h6>
           <div class="about-para-txt">
-          	<p>Fruits, Vegetables, Spice, Milk & Dairy Products, Cereals, Food Grains, Snacks, Sweet, Package food items, Sugar, Flours, Cooking, Edible, and Coconut Oil,Coffee, Tea, Garments, Textiles, Ayurvedic Product, Furniture, Marble, Granite & Stones, Chemicals, Handicrafts. We also provide IT-solutions and marketing strategies in India.</p>
+            <p>Fruits, Vegetables, Spice, Milk & Dairy Products, Cereals, Food Grains, Snacks, Sweet, Package food items, Sugar, Flours, Cooking, Edible, and Coconut Oil,Coffee, Tea, Garments, Textiles, Ayurvedic Product, Furniture, Marble, Granite & Stones, Chemicals, Handicrafts. We also provide IT-solutions and marketing strategies in India.</p>
             <p>MinivetExim is committed to bringing you the best available products along with the highest standards of Quality at a lower price.</p>
           </div>
         
@@ -162,6 +164,20 @@ Import and export of various kinds of goods and technologies. Excluding those pr
     </div>
   </section>
   <!--//about -->
+
+<div class="w3-row">
+    <div class="w3-half">
+      <%=link_to (image_tag ("minivetexim11.png"),class: "img-fluid"),minivetmasks_path,class:"w3-hover-opacity"%>
+   </div>
+
+    <div class="w3-half">
+      
+          <%=link_to (image_tag ("minivetexim8.png"),class: "img-fluid"),minivetmasks_path,class:"w3-hover-opacity"%>
+        </div>
+  </div>
+
+
+
   <!--service -->
   <section class="service" id="service">
     <div class="container-fluid">
@@ -189,8 +205,8 @@ Import and export of various kinds of goods and technologies. Excluding those pr
             <h4>Marble, Granite & Stones,
 Chemicals, Dyes & Solvents</h4>
 <h4>Handicrafts & Decoratives,Furniture & Supplies,
-Transportation & Logistics,</h4>
-<h4>IT Solutions 
+Transportation & Logistics,
+IT Solutions 
 </h4>
           </div>
         </div>
@@ -212,148 +228,148 @@ Coffee bean & powder,Tea leaf,Vanilla</h4><h4>Herbal & Ayurvedic</h4>
   </section>
   <!--//service -->
   <!-- features -->
-	<section class="features py-5" id="features">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row">
-				<div class="col-lg-6 about-text-grid">
-					<h5 class="top-title mb-lg-4 mb-3">Virtual Verification</h5>
-					<ul class="my-4 list-unstyled list-head">
-						<li>
-							<span class="fa fa-hand-o-right mr-3" aria-hidden="true"></span>We make a video call to importer or buyer to verify there importing product size, color, quality, quantity, and packaging we make sure before sending any product to buyers.</li>
-						<li>
-							
-					</ul>
-					<a href="#contact" style="max-width: 150px; margin: 0 auto;" class="btn button-style button-style-2 mt-sm-4 mt-3">Contact
-						Us</a>
-				</div>
-				<div class="offset-lg-1 col-lg-5 abbot-right mt-lg-0 mt-sm-5 mt-4">
-				<%=image_tag ("minivet_exim13.jpg"),class: "img-fluid"%>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //features -->
+  <section class="features py-5" id="features">
+    <div class="container py-xl-5 py-lg-3">
+      <div class="row">
+        <div class="col-lg-6 about-text-grid">
+          <h5 class="top-title mb-lg-4 mb-3">Virtual Verification</h5>
+          <ul class="my-4 list-unstyled list-head">
+            <li>
+              <span class="fa fa-hand-o-right mr-3" aria-hidden="true"></span>We make a video call to importer or buyer to verify there importing product size, color, quality, quantity, and packaging we make sure before sending any product to buyers.</li>
+            <li>
+              
+          </ul>
+          <a href="#contact" style="max-width: 150px; margin: 0 auto;" class="btn button-style button-style-2 mt-sm-4 mt-3">Contact
+            Us</a>
+        </div>
+        <div class="offset-lg-1 col-lg-5 abbot-right mt-lg-0 mt-sm-5 mt-4">
+        <%=image_tag ("minivet_exim13.jpg"),class: "img-fluid"%>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //features -->
  <!-- testimonials -->
-	<section class="testimonials py-5 bg-li" id="testi">
-		<div class="container py-xl-5 py-lg-3">
-			<h3 class="tittle text-center">Testimonials</h3>
-			<p class="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
-			<div class="row text-center mt-4">
-				<div class="col-lg-4 test-info">
-					<p><span class="fa fa-quote-left mr-1"></span>I worked at minivetexim full-time for  2 years
+  <section class="testimonials py-5 bg-li" id="testi">
+    <div class="container py-xl-5 py-lg-3">
+      <h3 class="tittle text-center">Testimonials</h3>
+      <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
+      <div class="row text-center mt-4">
+        <div class="col-lg-4 test-info">
+          <p><span class="fa fa-quote-left mr-1"></span>I worked at minivetexim full-time for  2 years
 Learning from the best teams dealing with global market, Flexibility to work, Best events, trainings.<span
-							class="fa fa-quote-right ml-1"></span></p>
-					<div class="test-img mb-3">
-					
-					    <%=image_tag ("minivet_exim221.jpg"),class: "img-fluid"%>
+              class="fa fa-quote-right ml-1"></span></p>
+          <div class="test-img mb-3">
+          
+              <%=image_tag ("minivet_exim221.jpg"),class: "img-fluid"%>
 
-					</div>
-					<h3 class="my-md-2 my-3">Anushka Rao</h3>
-					<ul class="list-unstyled w3layouts-icons">
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-4 test-info mt-lg-0 mt-5">
-					<p><span class="fa fa-quote-left mr-1"></span> MinivetExim is a professional export company always they send us a good quality product <span
-							class="fa fa-quote-right ml-1"></span></p>
-					<div class="test-img mb-3">
-					<%=image_tag ("minivet_exim222.jpg"),class: "img-fluid"%>
+          </div>
+          <h3 class="my-md-2 my-3">Anushka Rao</h3>
+          <ul class="list-unstyled w3layouts-icons">
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 test-info mt-lg-0 mt-5">
+          <p><span class="fa fa-quote-left mr-1"></span> MinivetExim is a professional export company always they send us a good quality product <span
+              class="fa fa-quote-right ml-1"></span></p>
+          <div class="test-img mb-3">
+          <%=image_tag ("minivet_exim222.jpg"),class: "img-fluid"%>
 
-					</div>
-					<h3 class="my-md-2 my-3">Charlotte </h3>
-					<ul class="list-unstyled w3layouts-icons">
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
+          </div>
+          <h3 class="my-md-2 my-3">Charlotte </h3>
+          <ul class="list-unstyled w3layouts-icons">
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
 
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-4 test-info mt-lg-0 mt-5">
-					<p><span class="fa fa-quote-left mr-1"></span>Minivet Exim is a professional import & Export company they follow all industry standards. Happy to work with them thanks Minivet Exim <span
-							class="fa fa-quote-right ml-1"></span></p>
-					<div class="test-img mb-3">
-				    <%=image_tag ("minivet_exim223.jpg"),class: "img-fluid"%>
-				    	
-				    </div>
-					<h3 class="my-md-2 my-3">Thomas</h3>
-					<ul class="list-unstyled w3layouts-icons">
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="fa fa-star-half-o"></span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //testimonials -->
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 test-info mt-lg-0 mt-5">
+          <p><span class="fa fa-quote-left mr-1"></span>Minivet Exim is a professional import & Export company they follow all industry standards. Happy to work with them thanks Minivet Exim <span
+              class="fa fa-quote-right ml-1"></span></p>
+          <div class="test-img mb-3">
+            <%=image_tag ("minivet_exim223.jpg"),class: "img-fluid"%>
+              
+            </div>
+          <h3 class="my-md-2 my-3">Thomas</h3>
+          <ul class="list-unstyled w3layouts-icons">
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-star-half-o"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //testimonials -->
 
 
   
@@ -377,21 +393,21 @@ Learning from the best teams dealing with global market, Flexibility to work, Be
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid ">
           <div class="gallery-grids">
          
-				<%=image_tag ("minivet_exim12.png"),class: "img-fluid"%>
+        <%=image_tag ("minivet_exim12.png"),class: "img-fluid"%>
             
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid ">
           <div class="gallery-grids">
             
-				<%=image_tag ("minivet_exim14.png"),class: "img-fluid"%>
+        <%=image_tag ("minivet_exim14.png"),class: "img-fluid"%>
             
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid">
           <div class="gallery-grids">
             
-				<%=image_tag ("minivet_exim2.png"),class: "img-fluid"%>
+        <%=image_tag ("minivet_exim2.png"),class: "img-fluid"%>
             
           </div>
          </div>
@@ -460,7 +476,7 @@ By default this page lists all meetings of WTO committees and councils as well a
 
         <div class="col-lg-7 col-md-6 contact-form-txt">
           <form action="#" method="post">
-          	<%=form_for @contacts do |f| %>
+            <%=form_for @contacts do |f| %>
             <div class="form-group contact-forms">
               <%= f.text_field :name,:maxlength=>"24",placeholder:'Name',class: "form-control"%>
               </div>
