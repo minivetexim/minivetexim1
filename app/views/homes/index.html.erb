@@ -448,16 +448,16 @@ By default this page lists all meetings of WTO committees and councils as well a
           <form action="#" method="post">
             <%=form_for @contacts do |f| %>
             <div class="form-group contact-forms">
-              <%= f.text_field :name,:maxlength=>"24",placeholder:'Name',class: "form-control"%>
+              <%= f.text_field :name,:maxlength=>"44",placeholder:'Name',class: "form-control"%>
               </div>
             <div class="form-group contact-forms">
-             <%= f.email_field :email,:maxlength=>"24",placeholder:'E-Mail',class: "form-control"%>
+             <%= f.email_field :email,:maxlength=>"44",placeholder:'E-Mail',class: "form-control"%>
             </div>
             <div class="form-group contact-forms">
-             <%= f.text_field :phone_number,:maxlength=>"24",placeholder:'Phone Number',class: "form-control"%>
+             <%= f.text_field :phone_number,:maxlength=>"44",placeholder:'Phone Number',class: "form-control"%>
             </div>
             <div class="form-group contact-forms">
-             <%= f.text_field :message,:maxlength=>"24",placeholder:'Message',class: "form-control"%>
+             <%= f.text_field :message,:maxlength=>"1004",placeholder:'Message',class: "form-control"%>
             </div>
             <%= f.submit"Send",class: "btn btn-dark"%></p>
           </form>
